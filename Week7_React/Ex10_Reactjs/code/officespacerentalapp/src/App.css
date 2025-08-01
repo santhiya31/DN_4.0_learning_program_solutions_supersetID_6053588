@@ -1,0 +1,27 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.office-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.office-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  background-color: #f9f9f9;
+}
+
+.office-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
